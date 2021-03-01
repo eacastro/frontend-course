@@ -1,0 +1,25 @@
+/*
+    Universal selector:
+    -------------------
+    
+    * {
+        color: red;
+    } 
+*/
+
+/* Tag selector */
+
+p {
+    color: purple;
+}
+
+/* Descendent Selector */
+
+div p {
+    font-size: 20px;
+    color: black;
+}
+
+p a {
+    color: red;
+}
