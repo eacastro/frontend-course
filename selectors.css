@@ -23,3 +23,13 @@ div p {
 p a {
     color: red;
 }
+
+/* Class selector */
+.big {
+    font-size: 28px;
+}
+
+/* Id selector (Not recommended in professional web development) */
+#special-link {
+    color: yellowgreen;
+}
