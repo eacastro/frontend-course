@@ -1,7 +1,3 @@
-.background {
-    width: 600px;
-    height: 600px;
-    background: url('images/mountains-unsplash.jpg') #000;
-    background-repeat: no-repeat;
-    background-size: 50%;
+body {
+    background: url('images/double-bubble.png');
 }
