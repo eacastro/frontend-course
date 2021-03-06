@@ -1,0 +1,63 @@
+body {
+    background: #F2F2F2;
+    font-family: Arial, sans-serif;
+}
+
+div {
+    margin: 20px 0;
+}
+
+.button {
+    background: #32021F;
+    color: #FFF;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.button:hover {
+    opacity: .8;
+}
+
+/* Sizes */
+
+.small {
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.medium {
+    font-size: 16px;
+    padding: 15px 20px;
+}
+
+.large {
+    font-size: 18px;
+    padding: 20px 25px;
+}
+
+.extra-large {
+    font-size: 20px;
+    padding: 25px 30px;
+}
+
+/* colors */
+.blue {
+    background: #246EB9;
+}
+
+.green {
+    background: #AFB560;
+}
+
+.orange {
+    background: #F9A039;
+}
+
+/* Effects */
+
+.border-radius {
+    border-radius: 100px;
+}
