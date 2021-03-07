@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: #0E6BA8;
+    margin: 20px 0;
+}
+
+.absolute, .relative, .fixed {
+    background: #6695E8;
+}
+
+.absolute {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* Relative positioning */
+.relative {
+    position: relative;
+    left: 200px;
+}
+
+/* Fixed positioning */
+.fixed {
+    position: fixed;
+    left: 200px; 
+}
+
+/* Floating positoning */
+.floating-container {
+    height: 400px;
+    width: 80%;
+    background: purple;
+}
+
+.child-floating {
+    float: right;
+}
