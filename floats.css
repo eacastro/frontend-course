@@ -12,6 +12,7 @@ body {
 .parent {
     background: #2E294A;
     width: 700px;
+    overflow: hidden;
 }
 
 .box {
@@ -29,8 +30,4 @@ body {
 
 .two {
     float: right;
-}
-
-.non-floating {
-    clear: both;
 }
