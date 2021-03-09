@@ -28,3 +28,20 @@ a {
 .invisible-paragraph {
     visibility: hidden;
 }
+
+.second-box .box {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.blue {
+    background: #009DDC;
+    z-index: 1;
+}
+
+.gray {
+    background: #32021F;
+    left: 50px;
+    bottom: 80px;
+}
