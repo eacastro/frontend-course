@@ -16,6 +16,6 @@ a {
     display: block;
 }
 
-.invsible-paragraph {
-    display: none;
+.invisible-paragraph {
+    visibility: hidden;
 }
