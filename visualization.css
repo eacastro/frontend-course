@@ -16,6 +16,15 @@ a {
     display: block;
 }
 
+.box {
+    color: #FFF;
+    background: #4FB560;
+    margin: 20px 0;
+    width: 200px;
+    height: 400px;
+    overflow: hidden;
+}
+
 .invisible-paragraph {
     visibility: hidden;
 }
