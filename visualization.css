@@ -22,7 +22,7 @@ a {
     margin: 20px 0;
     width: 200px;
     height: 400px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .invisible-paragraph {
