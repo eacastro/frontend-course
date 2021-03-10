@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #FFF;
+    text-shadow: 3px 3px 4px #000;
+}
+
+.box-shadow {
+    box-shadow: 2px 3px 5px #000;
+    width: 200px;
+    height: 200px;
+    background-color: #2a9d8f;
+}
