@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background: #2a9d8f;
+    color: #FFF;
+}
+
+p::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p::first-line {
+    background: #CF5C36;
+    line-height: 40px;
+}
+
+.box {
+    background: #F9A03F;
+    width: 150px;
+    height: 150px;
+}
+
+.box::before {
+    content: 'Content before box';
+    display: block;
+    background: #3a3a3a;
+    color: #FFF;
+}
+
+.box::after {
+    content: 'Content after box';
+    display: block;
+    background: #3a3a3a;
+    color: #FFF;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 200px;
+}
