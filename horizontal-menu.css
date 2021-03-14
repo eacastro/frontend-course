@@ -11,23 +11,22 @@ body {
   font-size: 20px;
 }
 
-.nav-menu {
+.nav-menu-container {
+  width: 600px;
+  margin: 0 auto;
   background: #363635;
-  color: #b0fe76;
-  width: 250px;
+  overflow: hidden;
 }
 
 .nav-item {
-  border-bottom: 1px solid #b0fe76;
+  list-style: none;
+  color: #b0fe76;
+  float: left;
   padding: 20px;
-  margin: 0 10px;
-}
-
-.nav-item:last-of-type {
-  border-bottom: none;
+  width: 25%;
 }
 
 .nav-item:hover {
-  background: #8fbb99;
-  color: #595a4a;
+    background: #B0FE76;
+    color: #595A4A;
 }
