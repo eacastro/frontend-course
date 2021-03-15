@@ -1,8 +1,21 @@
 @keyframes colors {
-  from {
+  0% {
     background: #9eb3c2;
   }
-  to {
+
+  25% {
+    background: #1c7293;
+  }
+
+  50% {
+    background: #065a82;
+  }
+
+  75% {
+    background: #1b3b6f;
+  }
+
+  100% {
     background: #21295c;
   }
 }
