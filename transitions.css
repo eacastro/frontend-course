@@ -1,0 +1,11 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background: #21295C;
+    transition: all .3s ease;
+}
+
+.box:hover {
+    background: #9EB3C2;
+    transform: rotate(45deg);
+}
