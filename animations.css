@@ -1,0 +1,17 @@
+@keyframes colors {
+  from {
+    background: #9eb3c2;
+  }
+  to {
+    background: #21295c;
+  }
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: #9eb3c2;
+  animation-name: colors;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
