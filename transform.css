@@ -2,5 +2,5 @@
     background: #FFAA5A;
     width: 200px;
     height: 200px;
-    transform: skew(20deg, 0deg);
+    transform: translateX(200px) scale(1.5, 1.5) rotate(45deg);
 }
