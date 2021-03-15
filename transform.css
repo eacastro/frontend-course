@@ -1,0 +1,6 @@
+.box {
+    background: #FFAA5A;
+    width: 200px;
+    height: 200px;
+    transform: translate(200px, 50px);
+}
