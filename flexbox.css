@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: Arial;
+}
+
+.container {
+  width: 80%;
+  max-width: 43.75rem;
+  background: #213d40;
+  display: flex;
+
+}
+
+.box {
+  width: 6.25rem;
+  height: 6.25rem;
+  background: #F79256;
+  text-align: center;
+  margin: 1.25rem;
+  padding: 1.25rem;
+  font-size: 2.5rem;
+  color: #FFF;
+}
